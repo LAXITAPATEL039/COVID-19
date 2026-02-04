@@ -1,0 +1,20 @@
+// IMPORT CUTOM SB ADMIN 2 VARIABLES (OVERRIDES DEFAULT BOOTSTRAP VARIABLES)
+@import "variables.scss";
+
+// IMPORT BOOTSTRAP
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+// IMPORT CUSTOM SB ADMIN 2 MIXINS AND COMPONENTS
+@import "mixins.scss";
+@import "global.scss";
+@import "utilities.scss";
+
+// CUSTOM COMPONENTS
+@import "dropdowns.scss";
+@import "navs.scss";
+@import "buttons.scss";
+@import "cards.scss";
+@import "charts.scss";
+@import "login.scss";
+@import "error.scss";
+@import "footer.scss";
